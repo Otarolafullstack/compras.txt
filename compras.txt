@@ -1,0 +1,5 @@
+COMPRAS 
+.PAN  
+.LECHE
+.AGUA
+.SAL
