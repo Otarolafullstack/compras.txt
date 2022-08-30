@@ -2,4 +2,5 @@ COMPRAS
 .PAN  
 .LECHE
 .AGUA
-.SAL
+.SAL 
+.comprar pastas y quesos 
