@@ -1,0 +1,28 @@
+h1{
+    color: white;/*color del titulo*/
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black;
+    text-align: center; 
+} 
+p{
+    color:green; 
+    font-style: initial;
+} 
+li{
+    color: red;
+} 
+.destacado{
+    color: blueviolet; 
+    font: size 25px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#caja
+{         
+    width: 400px;     
+    height: 150px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    border-style: double;
+        
+}
