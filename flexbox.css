@@ -1,0 +1,122 @@
+body {
+    background-color: beige;
+}
+
+.caja {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+
+
+}
+
+.flex-conteiner {
+    display: flex;
+    border: 1px solid black;
+    background: white;
+    padding: 0px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 300px;
+
+
+
+}
+
+.c1 {
+    background: red;
+
+}
+
+.c2 {
+    background: blue;
+}
+
+.c3 {
+    background: green;
+}
+
+
+.caj {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.conteiner2 {
+    display: flex;
+    border: 1px solid black;
+    background: white;
+    padding: 0px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+
+}
+
+.a1 {
+    background: red;
+
+}
+
+.a2 {
+    background: blue;
+}
+
+.a3 {
+    background: green;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    border: 1px solid black;
+    background: white;
+    padding: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+    width: 999px;
+
+
+}
+
+.x1 {
+    background: red;
+
+}
+
+.x2 {
+    background: blue;
+}
+
+.x3 {
+    background: green;
+}
