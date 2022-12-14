@@ -1,0 +1,188 @@
+/*font-family: 'Lato', sans-serif;
+*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+header {
+    background-color: blue;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 5px;
+
+}
+
+nav {
+    background-color: black;
+
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: darkgray;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 12px 0;
+}
+
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main div {
+
+    display: block;
+    border-radius: 2px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 15px;
+
+
+
+
+
+
+}
+
+.planea {
+
+    margin-right: 25px;
+
+}
+
+.ofertas {
+    font-size: 10px;
+}
+
+.brasil {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.vuelos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brasil img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.brasil h5,
+.brasil h6 {
+    margin: 0;
+    font-weight: normal;
+    color: blue;
+}
+
+.vuelos p {
+    font-size: 10px;
+}
+
+.principal {
+    display: flex;
+
+
+}
+
+.viaja {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.viaja h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+/*actividades inicio*/
+
+.actividad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.actividad img {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 0.1em;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-right: 10%;
+
+}
+
+/*actividades fin*/
+
+/*asistencia inicio*/
+.boton {
+    background: blue;
+     color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+
+}
+
+/*fin*/
