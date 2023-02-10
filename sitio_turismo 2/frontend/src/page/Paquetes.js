@@ -1,49 +1,152 @@
 import '../../src/styles/componentes/page/Home.css'
-import { Link } from "react-router-dom";
 
 const Paquetes = (props) => {
     return (
-        <main className="holder">
+        <section className="packages">
 
-            <body>
-                <h1>Encontrá paquetes turísticos imperdibles</h1>
-                <p className="placeholder-glow">
-                    <span class="placeholder col-12"></span>
-                </p>
+            <h1 className="heading-title">top destinos</h1>
 
-                <p className="placeholder-wave">
-                    <span className="placeholder col-12"></span>
-                </p>
-            </body>
-            
-                <img src="img/vuelos/cataratas.jpg" class="card-img-top" alt="cataratas" />
-                <div className="card-body">
-                    <h5 className="card-title">Cataratas del Iguazú</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <Link to="btn btn-primary">COMPRAR</Link>
-                
-            </div>
-            
-                <img src="img/vuelos/bariloche.jpg" class="card-img-top" alt="bariloche" />
-                <div className="card-body">
-                    <h5 className="card-title">Bariloche</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <Link to="btn btn-primary">COMPRAR</Link>
-            
-            </div>
-            
-                <img src="img/vuelos/cordillera.jpg" class="card-img-top" alt="cordillera" />
-                <div className="card-body">
-                    <h5 className="card-title">Cordillera</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <Link to="btn btn-primary">COMPRAR</Link>
-                    
+            <div className="box-container">
+
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-1.jpg" alt="img1" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" class="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-2.jpg" alt="img2" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-3.jpg" alt="img3" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-4.jpg" alt="img4" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-5.jpg" alt="img5" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-6.jpg" alt="img6" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-7.jpg" alt="img7" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-8.jpg" alt="img8" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-9.jpg" alt="img9" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-10.jpg" alt="img10" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-11.jpg" alt="img11" />
+                    </div>
+                    <div class="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="image">
+                        <img src="img/vuelos/img-12.jpg" alt="img12" />
+                    </div>
+                    <div className="content">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
+                        <a href="asistencia" className="btn">comprar</a>
+                    </div>
+                </div>
 
             </div>
-        </main>
+
+            <a href="activades" className="btn">Ultimas noticias</a>
+
+        </section>
+
     )
 }
 

@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 import Header from "./componentes/layout/Header";
 import Nav from "./componentes/layout/Nav";
 import Footer from "./componentes/layout/Footer";
@@ -11,6 +10,7 @@ import AsistenciaPage from './page/Asistencia';
 import HomePage from './page/Home';
 import PaquetesPage from './page/Paquetes';
 import VuelosPage from './page/Vuelos';
+
 
 
 

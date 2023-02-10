@@ -4,18 +4,6 @@ const Vuelos = (props) => {
 
         <main className="holder">
 
-        <nav className="navbar bg-light">
-            <div className="container-fluid">
-                <form className="d-flex" role="search">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-        <div className="ofertas">
-
-            <h2>Grandes ofertas!</h2>
-
             <div className="vuelos">
 
                 <div className="brasil">
@@ -69,9 +57,31 @@ const Vuelos = (props) => {
                     </p>
                 </div>
             </div>
-        </div>
 
-    </main>
-        )
-    }
-    export default Vuelos;
+           <div id="wrapper">
+
+             <h2>Si tenes alguna duda contactanos!</h2>
+               <form className="contacto" action="https://formsubmit.co/agustinalejandrootarola@gmail.com" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="name"/>
+
+                <label for="email">correo electronico</label>
+                <input type="email" name="email"/>
+
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject"/>
+
+                <label for="comments">comentario</label>
+                <textarea name="comments" cols="15" rows="5"></textarea>
+                <input type="submit" value="Enviar"/>
+                <input type="hidden" name="_next" value="http://localhost:3001"/>
+                <input type="hidden" name="_captcha" value="false"/>
+
+             </form>
+                
+           </div>
+
+        </main>
+    )
+}
+export default Vuelos;

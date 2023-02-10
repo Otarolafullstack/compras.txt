@@ -2,8 +2,8 @@ const Header = (props) => {
     return (
         <header>
             <div className="holder">
-                <img src="img/logo.png" width="80" alt="Turismo lan" />
-                <h1>Turismo lan</h1>
+                <img src="img/vuelos/pngegg.png" width="110" alt="Turismo lan" />
+                <h1>FlyHost</h1>
             </div>
 
         </header>
